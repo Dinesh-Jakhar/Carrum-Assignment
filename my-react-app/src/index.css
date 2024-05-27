@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+input[type="radio"].custom-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"].custom-radio:checked {
+  background-color: #10b981; /* Use the color you want */
+  border: 2px solid #10b981;
+  background-image: radial-gradient(circle, white 1%, transparent 50%);
+  background-size: 60% 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

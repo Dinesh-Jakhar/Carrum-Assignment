@@ -1,0 +1,4 @@
+/node_modules/
+/Backend_/node_modules/
+/my-react-app/node_modules/
+.env
